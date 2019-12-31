@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+set -eo pipefail
+
+versions=$(10.4)
+
+echo "$versions"
