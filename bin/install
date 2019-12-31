@@ -32,7 +32,7 @@ install() {
     make
     make install
 
-    $install_path/bin/mysqld \
+    $install_path/scripts/mysql_install_db \
       --user="$USER" \
       --basedir="$install_path" \
       --datadir="${install_path}/data" \
