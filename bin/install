@@ -35,8 +35,7 @@ install() {
     $install_path/scripts/mysql_install_db \
       --user="$USER" \
       --basedir="$install_path" \
-      --datadir="${install_path}/data" \
-      --tmpdir=/tmp
+      --datadir="${install_path}/data"
   )
 }
 
