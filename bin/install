@@ -33,7 +33,6 @@ install() {
     make install
 
     $install_path/bin/mysqld \
-      --initialize-insecure \
       --user="$USER" \
       --basedir="$install_path" \
       --datadir="${install_path}/data" \
